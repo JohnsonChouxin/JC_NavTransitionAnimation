@@ -17,6 +17,7 @@
 		3A03D0C91B7ADBB5002AD0FE /* PushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D0C81B7ADBB5002AD0FE /* PushTransition.m */; };
 		3A03D0CC1B7ADF51002AD0FE /* PopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D0CB1B7ADF51002AD0FE /* PopTransition.m */; };
 		3A03D0D21B7AE1E7002AD0FE /* InteractionTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D0D11B7AE1E7002AD0FE /* InteractionTransitionAnimation.m */; };
+		3A03D0D81B7B325B002AD0FE /* InteractiveTrasitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D0D71B7B325B002AD0FE /* InteractiveTrasitionAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		3A03D0CB1B7ADF51002AD0FE /* PopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTransition.m; sourceTree = "<group>"; };
 		3A03D0D01B7AE1E7002AD0FE /* InteractionTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractionTransitionAnimation.h; sourceTree = "<group>"; };
 		3A03D0D11B7AE1E7002AD0FE /* InteractionTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionTransitionAnimation.m; sourceTree = "<group>"; };
+		3A03D0D61B7B325B002AD0FE /* InteractiveTrasitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTrasitionAnimation.h; sourceTree = "<group>"; };
+		3A03D0D71B7B325B002AD0FE /* InteractiveTrasitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTrasitionAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				3A03D0CB1B7ADF51002AD0FE /* PopTransition.m */,
 				3A03D0D01B7AE1E7002AD0FE /* InteractionTransitionAnimation.h */,
 				3A03D0D11B7AE1E7002AD0FE /* InteractionTransitionAnimation.m */,
+				3A03D0D61B7B325B002AD0FE /* InteractiveTrasitionAnimation.h */,
+				3A03D0D71B7B325B002AD0FE /* InteractiveTrasitionAnimation.m */,
 			);
 			name = TransitionAnimaiton;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 				3A03D0CC1B7ADF51002AD0FE /* PopTransition.m in Sources */,
 				3A03D09D1B7ADAE6002AD0FE /* main.m in Sources */,
 				3A03D0C91B7ADBB5002AD0FE /* PushTransition.m in Sources */,
+				3A03D0D81B7B325B002AD0FE /* InteractiveTrasitionAnimation.m in Sources */,
 				3A03D0D21B7AE1E7002AD0FE /* InteractionTransitionAnimation.m in Sources */,
 				3A03D0C51B7ADB18002AD0FE /* TwoViewController.m in Sources */,
 			);
@@ -436,6 +442,7 @@
 				3A03D0BC1B7ADAE6002AD0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A03D0BD1B7ADAE6002AD0FE /* Build configuration list for PBXNativeTarget "JC_NavTransitionAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +451,7 @@
 				3A03D0BF1B7ADAE6002AD0FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

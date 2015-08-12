@@ -12,6 +12,7 @@
 #import "PushTransition.h"
 #import "PopTransition.h"
 #import "InteractionTransitionAnimation.h"
+#import "InteractiveTrasitionAnimation.h"
 
 @interface OneViewController ()<UINavigationControllerDelegate>
 
@@ -22,6 +23,8 @@
 @property (strong, nonatomic) PopTransition  * popAnimation;
 
 @property (strong, nonatomic) InteractionTransitionAnimation * popInteraction;
+
+@property (strong, nonatomic) InteractiveTrasitionAnimation * popInteractive;
 
 @end
 
@@ -58,7 +61,17 @@
 -(id<UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController
                         interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning>)animationController
 {
-    return self.popInteraction.isActing ? self.popInteraction : nil;
+//    return self.popInteraction.isActing ? self.popInteraction : nil;
+    return self.popInteractive.isActing ? self.popInteractive : nil;
+}
+
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    NSLog(@"willShowViewController - %@",self.popInteraction.isActing ?@"YES":@"NO");
+}
+- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    NSLog(@"didShowViewController - %@",self.popInteraction.isActing ?@"YES":@"NO");
 }
 
 #pragma mark - **************** private methods
@@ -101,5 +114,12 @@
         _popInteraction = [[InteractionTransitionAnimation alloc] init];
     }
     return _popInteraction;
+}
+-(InteractiveTrasitionAnimation *)popInteractive
+{
+    if (!_popInteractive) {
+        _popInteractive = [[InteractiveTrasitionAnimation alloc] init];
+    }
+    return _popInteractive;
 }
 @end
