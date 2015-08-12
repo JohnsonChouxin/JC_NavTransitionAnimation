@@ -15,6 +15,9 @@ This is about NavigationController transition animation<br>
       but it was also can interact with you<br>
 ![](https://github.com/JohnsonChouxin/JC_NavTransitionAnimation/raw/master/JC_NavTransitionAnimationDamo/interact Animation.gif)
 
+##if you don't know how to use it<br>
+   go here [this is blog](http://www.jianshu.com/p/59224648828b#)<br>
+
 ##I am JohnsonChouxin
   * [This is my Blog](http://www.jianshu.com/users/91577acf333a/latest_articles)<br>
   * Welcome to communicate with me
