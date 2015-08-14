@@ -53,6 +53,7 @@
 		3A03D0D11B7AE1E7002AD0FE /* InteractionTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractionTransitionAnimation.m; sourceTree = "<group>"; };
 		3A03D0D61B7B325B002AD0FE /* InteractiveTrasitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTrasitionAnimation.h; sourceTree = "<group>"; };
 		3A03D0D71B7B325B002AD0FE /* InteractiveTrasitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTrasitionAnimation.m; sourceTree = "<group>"; };
+		3A70DBAE1B7D99EF0033D70D /* JC_NacAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JC_NacAnimation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +138,7 @@
 		3A03D0C61B7ADB68002AD0FE /* TransitionAnimaiton */ = {
 			isa = PBXGroup;
 			children = (
+				3A70DBAE1B7D99EF0033D70D /* JC_NacAnimation.h */,
 				3A03D0C71B7ADBB5002AD0FE /* PushTransition.h */,
 				3A03D0C81B7ADBB5002AD0FE /* PushTransition.m */,
 				3A03D0CA1B7ADF51002AD0FE /* PopTransition.h */,

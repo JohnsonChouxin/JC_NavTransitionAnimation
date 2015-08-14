@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EE958914-04B2-4A4A-82A3-399CD29766FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JC_NavTransitionAnimation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D21B4157E1F7950D0D42859BA950E6EB4E5BB846</key>
+		<string>https://github.com/JohnsonChouxin/JC_NavTransitionAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JC_NavTransitionAnimationDamo/JC_NavTransitionAnimation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D21B4157E1F7950D0D42859BA950E6EB4E5BB846</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JohnsonChouxin/JC_NavTransitionAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D21B4157E1F7950D0D42859BA950E6EB4E5BB846</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D21B4157E1F7950D0D42859BA950E6EB4E5BB846</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JC_NavTransitionAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

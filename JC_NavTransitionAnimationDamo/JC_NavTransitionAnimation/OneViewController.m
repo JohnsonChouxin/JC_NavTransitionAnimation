@@ -9,10 +9,7 @@
 #import "OneViewController.h"
 #import "TwoViewController.h"
 
-#import "PushTransition.h"
-#import "PopTransition.h"
-#import "InteractionTransitionAnimation.h"
-#import "InteractiveTrasitionAnimation.h"
+#import "JC_NacAnimation.h"
 
 @interface OneViewController ()<UINavigationControllerDelegate>
 
