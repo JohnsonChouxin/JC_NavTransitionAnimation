@@ -9,7 +9,7 @@ This is about NavigationController transition animation<br>
       Push动画<br>
 ![](https://github.com/JohnsonChouxin/JC_NavTransitionAnimation/raw/master/JC_NavTransitionAnimationDamo/PushAnimation.gif)
   * <3>.InteractionTransitionAnimation<br>
-      基于UIPercentDrivenInteractiveTransition类的可交互动画类<br>
+      基于UIPercentDrivenInteractiveTransition类的可交互动画类<br><br>
   * <4>.InteractiveTrasitionAnimation<br>
       基于UIViewControllerInteractiveTransitioning协议的类<br>
       也支持交互<br>
